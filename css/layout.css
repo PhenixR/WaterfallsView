@@ -2,8 +2,19 @@
     margin: 0;
     padding: 0;
 }
+#container {
+    position: relative;
+}
 .img_box {
     float: left;
+    padding: 5px;
+}
+.img_border {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: #cccccc;
+    width: 200px;
 }
 .pic {
     width: 200px;
